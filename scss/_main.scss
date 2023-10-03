@@ -1,0 +1,102 @@
+@mixin costado {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    margin: 70px;
+    background-color: $color-celeste;
+    border-radius: 5px;
+}
+@mixin inline {
+    display: inline-block;
+}
+
+main{
+ .ventas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @include celular
+    
+  }
+  
+.fotito{
+width: 10px;
+}
+.map-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 75%;
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+}
+
+
+
+  .pepito {
+    @include costado;
+    @include inline;
+  }
+  
+  .fotoVenta {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .tituloVenta {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .precio {
+    font-size: 24px;
+    font-weight: bold;
+    color: $color-fucsia;
+  }
+  
+  .compra {
+    padding: 10px 20px;
+    background-color: $color-fucsia;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .hola {
+    color: $color-fucsia;
+    @include celular
+  }
+  
+  .parrafo, h5 {
+    color: $color-negro;
+  }
+  
+  .carrusel {
+    width: 2000px;
+  }
+  .carta {
+    @include inline;
+    margin: 300px;
+    @include celular {
+      flex-direction: column;
+    }
+
+  }
+}

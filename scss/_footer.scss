@@ -1,0 +1,43 @@
+
+footer {
+  background-color: turquoise;
+  color: black;
+  padding: 30px 0;
+}
+
+.footer-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-payship-img {
+  margin-right: 10px;
+}
+
+.contact-data {
+  text-align: center;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+
+  li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+}
+
+.svg-text-fill {
+  color: #fff;
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+.svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
