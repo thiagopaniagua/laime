@@ -1,16 +1,17 @@
-
-.navbar{
+.navbar {
   background-color: pink;
 }
 
-.navbar-brand img{
+.navbar-brand img {
   width: 200px;
 }
-.collapse{
+
+.collapse {
   justify-content: center;
   margin: 0 auto;
 }
-.ulcontact{
+
+.ulcontact {
   margin: 0 auto;
   justify-content: center;
   align-items: center;
@@ -21,6 +22,7 @@ main .ventas {
   gap: 60px;
   margin: 36px 0;
 }
+
 main .pepito {
   display: inline-block;
   display: flex;
@@ -30,6 +32,7 @@ main .pepito {
   border-radius: 5px;
   display: inline-block;
 }
+
 main .fotoVenta {
   width: 100%;
   height: 200px;
@@ -37,17 +40,20 @@ main .fotoVenta {
   border-radius: 5px;
   margin-bottom: 20px;
 }
+
 main .tituloVenta {
   font-size: 24px;
   font-weight: bold;
   text-align: center;
   margin-bottom: 10px;
 }
+
 main .precio {
   font-size: 24px;
   font-weight: bold;
   color: fuchsia;
 }
+
 main .compra {
   padding: 10px 20px;
   background-color: fuchsia;
@@ -58,100 +64,237 @@ main .compra {
   cursor: pointer;
   border: none;
 }
+
 main .hola {
   color: fuchsia;
 }
-main .parrafo, main h5 {
+
+main .parrafo,
+main h5 {
   color: black;
 }
 
-main .carta {
+
+.svg-inline--fa {
   display: inline-block;
-  margin: 300px;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
 }
+
+.map-container {
+  position: relative;
+  overflow: hidden;
+
+
+  padding-top: 75%;
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+body {
+  background-color: pink;
+}
+
 
 
 footer {
+  margin-top: 0;
+  padding-top: 10px;
+  background-color: #f8f9fa;
+  margin-top: 50px;
+  background-color: turquoise;
+}
+
+.card.carta {
+  margin: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  margin-right: 300px;
+  
+
+}
+
+.card.carta img.card-img-top {
+
+
+  max-width: 100%;
+
+
+  height: auto;
+}
+
+.card.carta .card-body {
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+.card.carta p.card-text {
+  font-size: 18px;
+
+
+  font-weight: bold;
+  margin: 10px 0;
+  color: #333;
+}
+
+.navbar {
+  background-color: turquoise; 
+  color: #fff; 
+  padding: 10px 0; 
+}
+.navbar p{
+  font-size: 25px;
+}
+
+
+
+.navbar-nav .nav-link {
   
  
-  background-color: turquoise; 
-    color: black; 
-    padding: 30px 0;
-    margin: 0 auto;
+color: black; 
+  padding: 10px 20px; 
+  &:hover{
+    background-color: pink;
+    border-radius: 15px;
   }
-  
-  
-  .footer-title {
-    font-size: 18px; 
-    margin-bottom: 10px;
-  }
-  
-  .footer-payship-img {
-    margin-right: 10px; 
-  }
-  
-  
-  .contact-data {
-    text-align: center;
-  }
-  
-  .footer-list {
-    list-style: none; 
-    padding: 0;
-  }
-  
-  .footer-list li {
-    margin-bottom: 10px; 
-    
-   
-  font-size: 16px; 
-  }
-  
-  
-  .svg-text-fill {
-    color: #fff; 
-    margin-right: 5px; 
-    
-   
-  font-size: 20px; 
-  }
-  .svg-inline--fa {
-    display: inline-block;
-    font-size: inherit;
-    height: 1em;
-    overflow: visible;
-    vertical-align: -0.125em;
-  }
-  
-  .map-container {
-    position: relative;
-    overflow: hidden;
-    
-   
-  padding-top: 75%; 
-  }
-  
-  .map-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
-  }
-  
-body{
-  background-color: pink;
+
 }
-  main {
-    margin-bottom: 0; /* Elimina el margen inferior del elemento main */
-    margin-top: 50px;
-  }
+
+
+.navbar-nav .nav-link.active {
+  background-color: turquoise;
+}
+
+
+.navbar-nav .nav-link svg {
+  width: 24px; 
+  height: 24px; 
+  margin-right: 5px; 
+}
+
+
+.ulcontact {
   
-  footer {
-    margin-top: 0; /* Elimina el margen superior del footer */
-    padding-top: 10px; /* Añade un poco de espacio superior en el footer si es necesario */
-    background-color: #f8f9fa; /* Cambia el color de fondo del footer si es necesario */
-    margin-top: 50px;
-    background-color: turquoise;
+ 
+list-style-type: none; 
+  margin: 0; 
+  padding: 0; 
+}
+
+
+.ulcontact li {
+  display: inline-block; 
+  margin-left: 10px; 
+}
+
+
+.navbar-toggler-icon {
+  
+  border-radius: 4px; 
+}
+
+.nav-item svg{
+  color: whitesmoke;
+
+}
+
+
+
+#carouselExample {
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+.carousel-inner img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid turquoise;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+  
+ 
+background: rgba(0, 0, 0, 0.5);
+}
+
+
+.carousel-indicators {
+  
+ 
+position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  
+ 
+margin: 0 5px;
+  background: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.card{
+  margin: 0 auto;
+  
+}
+.cardemple{
+  padding-top: 20px;
+}
+.h1emple{
+  text-align: center;
+}
+#carouselExampleCaptions{
+  width: 1000px;
+  margin: 0 auto;
+}
+.carousel-item{
+  height: 800px;
+  width: 1000px;
+}
+.carousel-item img{
+  height: 100%;
+}
+main{
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+@media (max-width: 772px){
+  .carousel-item{
+    height: 500px;
+    width: 100%;
   }
+  .carousel-item img{
+    height: 100%;
+  }
+  #carouselExampleCaptions{
+    width: 100%;
+  }
+}
+.mainempleados{
+  padding-bottom: 70px;
+}
